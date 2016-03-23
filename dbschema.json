@@ -1,0 +1,24 @@
+{
+    "db_name": "ZeroApp",
+    "db_file": "data/zeroapp.db",
+    "version": 2,
+    "maps": {
+        "users/.+/data.json": {
+            "to_table": [ "zeroapp" ]
+        },
+        "users/.+/content.json": {
+            "to_keyvalue": [ "cert_user_id" ]
+        }
+    },
+    "tables": {
+        "zeroapp": {
+            "cols": [
+                ["body", "TEXT"],
+                ["date_added", "INTEGER"],
+                ["json_id", "INTEGER REFERENCES json (json_id)"]
+            ],
+            "indexes": ["CREATE UNIQUE INDEX message_key ON zeroapp(json_id, date_added)"],
+            "schema_changed": 1
+        }
+    }
+}

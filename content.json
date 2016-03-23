@@ -1,0 +1,73 @@
+{
+ "address": "1KtzUsnmwc1Wr7KWWEGnWzmBSQoyH917Pz",
+ "cloneable": true,
+ "description": "Boilerplate for ZeroNet web applications",
+ "files": {
+  "LICENSE": {
+   "sha512": "59d91ac8899876a36f384283eb3bbf5710814ef319bb0e2359ee5431db7ac3aa",
+   "size": 18026
+  },
+  "README.md": {
+   "sha512": "b2135dbe42497917e8d7b53d0fa0d9b49c0fe03ffa57f45e3299a60c411617e3",
+   "size": 626
+  },
+  "css/all.css": {
+   "sha512": "362d3ddff59980500bf0f91cdb9d65b05305b91f4976ad8f469a72447f7b8cc5",
+   "size": 1150
+  },
+  "css/style.css": {
+   "sha512": "c2559d770294dfef3a368fee48657999154eb734594d1a4983d27f22025f72df",
+   "size": 1076
+  },
+  "data-default/data.json": {
+   "sha512": "5da3ddfde6a0abb3c5fe15e57941ef66108979ed68211d0910068520b64a5386",
+   "size": 103
+  },
+  "data-default/users/content-default.json": {
+   "sha512": "2ebb45bc0a5420109333f6f86ec1dbb96aa82ca5281410c69c178bdfba532d14",
+   "size": 464
+  },
+  "dbschema.json": {
+   "sha512": "51d6245cd3150b7f9b3f27675d290a3759eccdb70ecd65df9494f662889bf938",
+   "size": 630
+  },
+  "index.html": {
+   "sha512": "3715efd062cdff255ad41cdd153d781a50083117411ca2ff38546a7b4fd9a302",
+   "size": 1847
+  },
+  "js/ZeroApp.coffee": {
+   "sha512": "347cb90a4119136b4142ea8f183f1af33d10f10e9f5d73011308c3546799611a",
+   "size": 3775
+  },
+  "js/all.js": {
+   "sha512": "eaf680729d4b887c5b67f1205aa85fc91e2d00922874cd0f2cd33b45ce24cbe1",
+   "size": 7058
+  },
+  "js/utils/ZeroFrame.coffee": {
+   "sha512": "e9d440c26e858ff524313e60881714bcaf292470ce63d2b33b93d9920a21a7c4",
+   "size": 1467
+  }
+ },
+ "ignore": "data/.*",
+ "includes": {
+  "data/users/content.json": {
+   "signers": [],
+   "signers_required": 1
+  }
+ },
+ "inner_path": "content.json",
+ "modified": 1458724915.494065,
+ "optional": "",
+ "postmessage_nonce_security": true,
+ "sign": [
+  57128340316183765862041266935474401357960393807250676954223858047921479041657,
+  21797631716735445096770488539600059083749804660683848287005085024235700788260
+ ],
+ "signers_sign": "HHdaljSuToY0wyLyFk4XXMEiXPSCFo0UD113sPcXu7oFMGx+F7V0bXxnEisaBEYtP8/UUE9zz7pWQH+fVocD74Q=",
+ "signs": {
+  "1KtzUsnmwc1Wr7KWWEGnWzmBSQoyH917Pz": "HJW2xSdeIjbBqtxcDzHbOcQXxpFIn1ENGS6llsxC8xqgBlEfqX4L7XnS2AqN9/pfU9BWS+PE1eYzP2Q2/EBgEpI="
+ },
+ "signs_required": 1,
+ "title": "Kopi",
+ "zeronet_version": "0.3.6"
+}
